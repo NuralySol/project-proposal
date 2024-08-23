@@ -189,7 +189,7 @@ So that they receive the benefits of being a registered user.
 
 ## Basic Schemas
 
-``` 
+```Javascript 
 const UserSchema = new Schema({
   name: {
     type: String,
@@ -215,7 +215,7 @@ const RestaurantSchema = new Schema({
     required: true,
   },
 }); 
-
+Javascript
 ```
 
 ## Timeline
