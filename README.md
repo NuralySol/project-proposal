@@ -111,7 +111,20 @@ So that they receive the benefits of being a registered user.
 
 - **Integrating an AI chat feature:** Personalized assistance, offer tailored menu recommendations and dietary guidance based on user preferences and health needs, provide nutritional advice and suggest healthier alternatives based on user data and preferences, etc.
 
+## Team Expectations
+
+[Team Expectations](https://docs.google.com/document/d/1cJsnRTeMD8zwStb7M6jFdcLx1ro5UoGyzrmQ1iOCzB0/edit?usp=sharing)
+
 ## Wireframe
+
+<details>
+
+![Food Delivery App Frame1](./Wireframe%20Food%20Delivery%20App%20-%20Frame%201.jpg)
+![Food Delivery App Frame2](./Wireframe%20Food%20Delivery%20App%20-%20Frame%202.jpg)
+![Food Delivery App Frame3](./Wireframe%20Food%20Delivery%20App%20-%20Frame%203.jpg)
+![Food Delivery App Frame4](./Wireframe%20Food%20Delivery%20App%20-%20Frame%204.jpg)
+
+</details>
 
 ## ERD
 
@@ -174,6 +187,37 @@ So that they receive the benefits of being a registered user.
 
 </details>
 
+## Basic Schemas
+
+``` 
+const UserSchema = new Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
+});
+
+const RestaurantSchema = new Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  address: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+}); 
+
+```
+
 ## Timeline
 
 ## August 24, 2024 (Saturday)
@@ -194,7 +238,7 @@ So that they receive the benefits of being a registered user.
 
 ## August 28, 2024 (Wednesday)
 
-- Work on user stories.
+- Work on user stories and attempt to deploy.
 
 ## August 29, 2024 (Thursday)
 
