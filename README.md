@@ -10,6 +10,7 @@
 > ![Food Delivery App ERD](./Food%20Delivery%20App%20ERD%20-%20ERD%20Table.jpg)
 
 ## Routes for the App
+<details>
 
 | **Route**                 | **HTTP Method** | **Description**                                        |
 | ------------------------- | --------------- | ------------------------------------------------------ |
@@ -61,6 +62,8 @@
 | `/order-status`           | POST            | Create a new order status.                             |
 | `/order-status/:id`       | PUT             | Update an existing order status by ID.                 |
 | `/order-status/:id`       | DELETE          | Delete an order status by ID.                          |
+
+</details>
 
 ## Timeline
 
