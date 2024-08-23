@@ -1,4 +1,4 @@
-# Food deilivery app (MERN stack)
+# DashAndDeliver App
 
 ## User Story
 
