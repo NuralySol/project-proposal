@@ -132,6 +132,14 @@ So that they receive the benefits of being a registered user.
 > This the ERD for food delivery app which includes all the data types, and relationships. It also includes our stretch goals.
 > ![Food Delivery App ERD](./Food%20Delivery%20App%20ERD%20-%20ERD%20Table.jpg)
 
+* See the details of the ERD
+
+<details>
+
+![Details of ERD](./Food%20Delivery%20App%20ERD%20-%20ERD%20explanation.jpg)
+
+</details>
+
 ## Routes for the App
 <details>
 
