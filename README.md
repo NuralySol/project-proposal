@@ -123,6 +123,7 @@ So that they receive the benefits of being a registered user.
 ![Food Delivery App Frame2](./Wireframe%20Food%20Delivery%20App%20-%20Frame%202.jpg)
 ![Food Delivery App Frame3](./Wireframe%20Food%20Delivery%20App%20-%20Frame%203.jpg)
 ![Food Delivery App Frame4](./Wireframe%20Food%20Delivery%20App%20-%20Frame%204.jpg)
+![Food Delivery App Restaurant Choice](./Wireframe%20Food%20Delivery%20App%20-%20Frame%205.jpg)
 
 </details>
 
@@ -144,10 +145,6 @@ So that they receive the benefits of being a registered user.
 | `/users/:id`              | DELETE          | Delete a user by ID.                                   |
 | **Addresses**             |                 |                                                        |
 | `/addresses`              | GET             | Retrieve a list of all addresses.                      |
-| `/addresses/:id`          | GET             | Retrieve details of a specific address by ID.          |
-| `/addresses`              | POST            | Create a new address.                                  |
-| `/addresses/:id`          | PUT             | Update an existing address by ID.                      |
-| `/addresses/:id`          | DELETE          | Delete an address by ID.                               |
 | **Customer Addresses**    |                 |                                                        |
 | `/customer-addresses`     | GET             | Retrieve a list of all customer addresses.             |
 | `/customer-addresses/:id` | GET             | Retrieve details of a specific customer address by ID. |
@@ -157,33 +154,18 @@ So that they receive the benefits of being a registered user.
 | **Restaurants**           |                 |                                                        |
 | `/restaurants`            | GET             | Retrieve a list of all restaurants.                    |
 | `/restaurants/:id`        | GET             | Retrieve details of a specific restaurant by ID.       |
-| `/restaurants`            | POST            | Create a new restaurant.                               |
-| `/restaurants/:id`        | PUT             | Update an existing restaurant by ID.                   |
-| `/restaurants/:id`        | DELETE          | Delete a restaurant by ID.                             |
 | **Menu Items**            |                 |                                                        |
 | `/menu-items`             | GET             | Retrieve a list of all menu items.                     |
-| `/menu-items/:id`         | GET             | Retrieve details of a specific menu item by ID.        |
-| `/menu-items`             | POST            | Create a new menu item.                                |
-| `/menu-items/:id`         | PUT             | Update an existing menu item by ID.                    |
-| `/menu-items/:id`         | DELETE          | Delete a menu item by ID.                              |
 | **Food Orders**           |                 |                                                        |
 | `/food-orders`            | GET             | Retrieve a list of all food orders.                    |
 | `/food-orders/:id`        | GET             | Retrieve details of a specific food order by ID.       |
 | `/food-orders`            | POST            | Create a new food order.                               |
-| `/food-orders/:id`        | PUT             | Update an existing food order by ID.                   |
-| `/food-orders/:id`        | DELETE          | Delete a food order by ID.                             |
 | **Order Menu Items**      |                 |                                                        |
 | `/order-menu-items`       | GET             | Retrieve a list of all order menu items.               |
 | `/order-menu-items/:id`   | GET             | Retrieve details of a specific order menu item by ID.  |
-| `/order-menu-items`       | POST            | Create a new order menu item.                          |
-| `/order-menu-items/:id`   | PUT             | Update an existing order menu item by ID.              |
-| `/order-menu-items/:id`   | DELETE          | Delete an order menu item by ID.                       |
 | **Order Status**          |                 |                                                        |
 | `/order-status`           | GET             | Retrieve a list of all order statuses.                 |
 | `/order-status/:id`       | GET             | Retrieve details of a specific order status by ID.     |
-| `/order-status`           | POST            | Create a new order status.                             |
-| `/order-status/:id`       | PUT             | Update an existing order status by ID.                 |
-| `/order-status/:id`       | DELETE          | Delete an order status by ID.                          |
 
 </details>
 
